@@ -1,0 +1,100 @@
+body {
+    /* Establece la fuente predeterminada para todo el contenido */
+    font-family: "Montserrat Alternates";
+    font-weight: 100;
+    font-style: normal;
+
+    /* Elimina los márgenes y rellenos predeterminados del cuerpo */
+    margin: 0;
+    padding: 0;
+
+    /* Establece el color de fondo del cuerpo */
+    background-color: #f0f0f0;
+
+}
+
+.menu {
+    /* Establece el color de fondo del encabezado */
+    background-color: #44F500;
+
+    /* Establece el color del texto del encabezado */
+    color: white;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.521);
+
+    /* Centra el texto del encabezado */
+    text-align: center;
+
+    /* Agrega relleno al encabezado */
+    padding: 1em;
+
+    /*Posicionamiento fixed: fija el componente*/
+    position: fixed;
+    top: 0px;
+    bottom: 560px;
+    left: 0px;
+    right: 0;
+}
+
+.titulo {
+    margin-top: 45px;
+    /* Establece el color de fondo de la barra de navegación */
+    background-color: #F5B100;
+
+    /* Agrega relleno a la barra de navegación */
+    padding: 0.5em;
+
+    /* Centra el texto de la barra de navegación */
+    text-align: center;
+
+    box-shadow: 0px 10px 20px #F5B100 ;
+    
+}
+
+.logo1{
+    width: 100;
+    height: auto;
+}
+
+div a {
+    /* Establece el color del texto de los enlaces de navegación */
+    color: white;
+
+    /* Elimina la decoración de texto (subrayado) de los enlaces */
+    text-decoration: none;
+
+    /* Agrega relleno y márgenes a los enlaces de navegación */
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+
+    /* Redondea los bordes de los enlaces */
+    border-radius: 5px;
+
+    /* Establece el color de fondo de los enlaces */
+    background-color: #4CAF50;
+}
+
+div a:hover {
+    /* Cambia el color de fondo de los enlaces al pasar el cursor sobre ellos */
+    background-color: #45a049;
+}
+
+section {
+    /* Agrega relleno al contenido principal */
+    padding: 2em;
+
+    /* Establece el ancho máximo del contenido principal */
+    max-width: 800px;
+
+    /* Centra el contenido principal en la página */
+    margin: 0 auto;
+}
+
+div {
+    /* Agrega margen inferior a las secciones para crear espacio entre ellas */
+    margin-bottom: 2em;
+}
+
+h1, h2 {
+    /* Establece el color de los encabezados de nivel 1 y 2 */
+    color: #040504;
+}
